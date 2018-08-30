@@ -14,7 +14,7 @@ public class SeleniumDemo {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
         //Launch website
-        driver.navigate().to("https://192.168.56.102:8089/index.jsp#gfis1535424855531");
+        driver.navigate().to("https:www.google.com");
         //j_username j_password signIn
         WebElement elementName = driver.findElement(By.id("j_username"));
         elementName.sendKeys("R5");
