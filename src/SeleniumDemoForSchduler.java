@@ -13,7 +13,7 @@ public class SeleniumDemoForSchduler {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
         //Launch website
-        driver.navigate().to("http://192.168.56.102:8075/ngfis-batch/adhoc.html");
+        driver.navigate().to("http://www.google.com");
         //j_username j_password signIn
         WebElement elementName = driver.findElement(By.name("serviceName"));
         elementName.sendKeys("WbostdService");
